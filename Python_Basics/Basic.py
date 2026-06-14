@@ -13,3 +13,4 @@ lista_teste = [1, 2, 3, 4, 5, 6]
 
 resultado = solicitador.somaPares(lista_teste)
 print(f"A soma dos números pares é: {resultado}")
+# RESULT: 2 +4+6 = 12 
