@@ -1,4 +1,4 @@
-{#YOUTUBE PYTHON TUTORIAL#}
+{#                  {YOUTUBE PYTHON TUTORIAL}
 # 1  (00:51:46) if statements 🤔
 # 2  (01:00:06) ⭐ calculator program 🧮
 # 3  (01:05:59) ⭐ weight conversion program 🏋️
@@ -71,15 +71,36 @@
 #76 (10:48:38) ⭐ stopwatch program ⏱
 #77 (11:06:05) ⭐ weather API app ☀️
 }
-
+# ----------------------------------------------------------
+# ----------------------------------------------------------
+# Adição			 +
+# Subtração		     -
+# Multiplicação		 *
+# Divisão Real		 /
+# Divisão Inteiro	 //
+# Exponenciação	     **
+# Resto da Divisão	 %
+# ----------------------------------------------------------
+# Igual a			 ==
+# Diferente de		 !=
+# Maior que		     >
+# Menor que		     <
+# Maior ou igual a	 >=
+# Menor ou igual a	 <=
+# ----------------------------------------------------------
+# E	and
+# OU	or
+# Não	not
+# ----------------------------------------------------------
 #  round = arredondada
 #  :.2f = 2 casas decimais
 #  or = at least one condition is true
 #  and = all conditions must be true
 #  not = Inverts the condition (not False, not True)
+# ----------------------------------------------------------
 
-{#MATHEMATICHAL FUNCTIONS#} ((1))
-    
+{# ((1))     {MATHEMATICHAL FUNCTIONS}
+
 # x = 3.14
 # y = 4
 # z = 5
@@ -157,7 +178,7 @@
 
 }
 # ----------------------------------------------------------
-{#IF Statements + Boolean} ((2))
+{# ((2))     {IF Statements + Boolean}
     
 # for_sale = False
 # if for_sale:
@@ -199,7 +220,7 @@
 #     print(f"{operator} is an invalid operator")
 }
 # ----------------------------------------------------------
-{#Python Weight Converter#} ((3 - 4))
+{# ((3 - 4)) {Python Weight Converter}
     
 
 
@@ -235,7 +256,7 @@
 #     print(f"the temperature in Celsius is: {temp}°C")
 }
 # ----------------------------------------------------------
-{# Logical Operators#} ((5 - 6))
+{# ((5 - 6)) {Logical Operators} 
 # Logical Operators = evalute multiples conditions 
 #                (or, and, not)
 #           or = at least one condition is true
@@ -280,9 +301,8 @@
 # elif 28 > temp > 0 and not is_sunny:
 #     print("it is WARM outside😊")
 #     print("it is CLOUDY outside☁️")
-}
 # ----------------------------------------------------------
-{# Conditional Expressions#} ((6))
+# ((6)) Conditional Expressions#} 
 # = A one line shortcut for the if-else statement (ternary operator)
 #   print or assing one of two values based on a condition
 #   X if condition else Y
@@ -313,7 +333,7 @@
 # # hot # #
 }
 # ----------------------------------------------------------
-{# String Methods#} ((7))
+{# ((7))     {String Methods}
 #   "b" = len("a") = lenght (tamanho)
 #   "b" = "a".find = achar um caractere especfico dentro de uma string
 #   "b" = "a".count("a") = contar quantas vezes um caractere aparece 
@@ -353,17 +373,96 @@
 #     print(f"Welcome, {username}!")
 }
 # ----------------------------------------------------------
-{# String Indexing#} ((8))
+{# ((8))     {String Indexing}
+    # Accessing Elements of a Sequence using an [start : end : step] Index 
+    # [start:end:step]
+
+# ((credit_number = "1234-5678-9012-3456"))
+# print (credit_number[0])      (X)  
+# 1
+
+# print (credit_number[0:4])    (Começo == 0 {:} Fim)
+# 1234
+
+# print (credit_number[:9])     (Não tem = 0 {:} destino)
+# 1234-5678
+
+# print(credit_number[5:9])     (Determina Começo == 5 {:} Determina Fim)
+# 5678
+
+# print(credit_number[5:])      (Determina Começo == 5 {:} Não tem = 0
+# 5678-9012-3456
+
+# print(credit_number[-1])      quando For - Então Começa do fim 
+# 6
+
+# print(credit_number[::2])     Não tem = 0 {::} Pula de 2
+# 13-6891-46                    13-68....
 
 
+# last_digits = credit_number[-4:]           Detemina Começo = 4    
+# print(f"XXXX-XXXX-XXXX-{last_digits}")     Negativo = Os Ultimos 4 Números
+# 3456
 
+# credit_number = credit_number[::-1]       ::-1 == Inverter
+# print(credit_number)
+# 6543-2109-8765-4321
+}
+# ----------------------------------------------------------
+{# ((9))     {Format Specifiers}
+    
+#  .(number)f = round to that many decimal places (fixed point) 
+#               arredondar para essa quantidade de casas decimais (ponto fixo)
 
+#  :(number) = allocate that many spaces
+#              aloque tantos espaços
 
+#  :03 = allocate and zero pad that many spaces
+#        aloque e zero preencha tantos espaços
 
+#  :<  = left justify
+#        justificar à esquerda
 
+#  :>  = right justify
+#        justificar a direita
 
+#  :^  = center aling
+#
+#  :+  = use a plus sign to indicare positive value
+#        use um sinal de mais (+) para indicar um valor positivo
+#  :=  = place sign to leftmost position
+#        coloque o sinal na posição mais à esquerda
 
+#  :   = insert a space before positive numbers
+#        insira um espaço antes dos números positivos
+
+#  :,  = comma separator
+#        separador de vírgula
+    }
+# ----------------------------------------------------------
+{# ((10))    {While Loops}
+# while = a statement that executes a block of code as long as a condition is true
+# name = input("enter your name: ")
+
+# while name == "":
+#     print("you did not enter your name")
+#     name = input("enter your name: ")
+
+# print(f"hello {name}")
+
+# ----------------------------------------------------------
+
+# food = input("enter a food you like (q to quit): ")
+
+# while not food == "q":
+#     print(f"you like {food}")
+#     food = input("enter another food you like (q to quit): ")
+
+# print("bye")
 
 
 
 }
+# ----------------------------------------------------------
+
+
