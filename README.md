@@ -6,7 +6,7 @@ The goal of this project is to document my learning progress, organizing my code
 
 ### BR - Português
 
-Welcome to my repository dedicated to programming logic, networking concepts, and information security scripting with Python. 
+Bem-vindo ao meu repositório dedicado à lógica de programação, conceitos de rede e scripts de segurança da informação com Python. 
 
-The goal of this project is to document my learning progress, organizing my code from the absolute fundamentals up to offensive and defensive security automobiles.
+O objetivo deste projeto é documentar meu progresso de aprendizado, organizando meu código desde os fundamentos absolutos até automóveis de segurança ofensivos e defensivos.
 
