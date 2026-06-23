@@ -1,4 +1,7 @@
-# 0
+#BR = Portuguese
+#EN = English
+
+
 #EN - This is a code that sums only the even numbers of a list of integers, returning the final result.
 
 #BR - Este é um código que soma apenas os números pares de uma lista de inteiros, retornando o resultado final.
