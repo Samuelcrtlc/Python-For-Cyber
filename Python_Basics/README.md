@@ -5,4 +5,4 @@
 
 # Em Português
 
-### Este módulo abrange desafios de lógica de programação, estruturas de dados e controle de fluxo, estabelecendo uma base sólida em Python.
+### Este módulo abrange desafios de lógica de programação, estruturas de dados e controle de fluxo, estabelecendo uma lógica simples em Python.
