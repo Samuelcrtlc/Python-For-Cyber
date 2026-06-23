@@ -5,6 +5,7 @@
 #EN - This is a code that sums only the even numbers of a list of integers, returning the final result.
 
 #BR - Este é um código que soma apenas os números pares de uma lista de inteiros, retornando o resultado final.
+
 class Solution:
     def sum_even(self, nums: list[int]) -> int:
         total = 0                   # Create the variable to accumulate the total /// Criamos a variável para acumular o total 
@@ -23,8 +24,8 @@ print(f"Test list: {test_list}")
 print(f"The sum of the even numbers is: {result}")  # RESULT: 2 + 4 + 6 = 12
 
 print()
-# --------------------------------------------------------------------------
 
+# --------------------------------------------------------------------------
 # 1
 #EN - This is a solution to the "Two Sum" problem of LetCode, where we need to find two numbers in a list that add up to a specific target.
 
@@ -52,3 +53,4 @@ print(f"Test list: {test_list}")
 
 print(f"The indices of the numbers that sum up to {target} are: {result}")      # RESULT: the numbers that sum up to 9 are: [1, 2] - (7 + 2 = 9)
                                                                                 # If dont find the result it will return "none" Null
+# --------------------------------------------------------------------------
