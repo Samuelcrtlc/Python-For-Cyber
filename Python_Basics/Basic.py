@@ -39,9 +39,13 @@ class Solution:
 
 call = Solution()                                 # Call the class + function /// Chamar a classe + função
 
-test_list = [2, 7, 11, 15]                        # Test list /// Lista de teste 
+test_list = [5, 7, 2, 15]                         # Test list /// Lista de teste 
+#               ^  ^
+#              [1, 2]
 target = 9                                        
-result = call.twoSum(test_list, target)
+result = call.twoSum(test_list, target)           # Call the function /// Chama a função
 
 print(f"Test list: {test_list}")
-print(f"The indices of the numbers that sum up to {target} are: {result}")  # If dont find the result it will return "none" Null
+
+print(f"The indices of the numbers that sum up to {target} are: {result}")      # RESULT: the numbers that sum up to 9 are: [1, 2] - (7 + 2 = 9)
+                                                                                # If dont find the result it will return "none" Null
